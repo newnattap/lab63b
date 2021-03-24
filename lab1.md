@@ -13,6 +13,7 @@
 1. 01 run example 1 : https://www.youtube.com/watch?v=NLIUsWLEpmg
 2. src code ของโปรแกรม 01_Serial-Monitor : https://github.com/choompol-boonmee/lab63b/blob/master/examples/01_Serial-Monitor/src/main.cpp
 3. platformio : https://platformio.org/
+![Screenshot (1)](https://user-images.githubusercontent.com/80880087/112285950-c1cce580-8c82-11eb-926d-3ce0e188b048.png)
 
 ## วิธีการทำทดลอง
 1. ต่อไมโครคอนโทรเลอร์เข้ากับซีเรียล
