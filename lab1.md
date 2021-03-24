@@ -20,47 +20,43 @@
 3. เข้าตัวอย่างโปรแกรมจากโดยใช้พิมพ์คำสั่ง **cd pattani** ในหน้า command prompt
 4. เลือกตัวอย่างโปรแกรมคำสั่ง **cd 01_Serial-Monitor**
 5. พิมพ์คำสั่ง **vi src/main.cpp** เมื่อกด Enter จะขึ้นข้อมูลดังนี้
-javascript
+```c
 #include <Arduino.h>
 
 int cnt = 0;
 
 void setup()
 {
- Serial.begin(115200);
+	Serial.begin(115200);
 }
 
 void loop()
 {
- cnt++;
- Serial.printf("PATTANI :%d\n",cnt);
- delay(1000);
+	cnt++;
+	Serial.printf("PATTANI :%d\n",cnt);
+	delay(1000);
 }
-            
-6. พิมพ์คำสั่ง **vi platformio.ini** เมื่อกด Enter จะขึ้นดังรูปนี้
-      
-      
-      
-      
-      
-      ![image](https://user-images.githubusercontent.com/80879772/111911794-83c09d80-8a99-11eb-8f0f-918b05017da2.png)
-
-7. อัพโหลดโปรแกรมเข้าไมโครคอนโทรเลอร์ด้วยคำสั่ง **pio run -t upload** เมื่อกด Enter จะขึ้นดังรูปนี้
-
-
-
-
-
-
-     ![image](https://user-images.githubusercontent.com/80879772/111912103-bfa83280-8a9a-11eb-903c-06a83b5ec517.png)
-
-8. กดปุ่มรีเซตที่ตัวไมโครคอนโทรเลอร์
-9. **pio device monitor** เพื่อดูผลลัพท์
-
-
-      
-      ![image](https://user-images.githubusercontent.com/80879772/112034335-f2245f00-8b70-11eb-9e68-d67d1945da5d.png)
-
+```
+6. พิมพ์คำสั่ง vi platformip.ini จะได้ 
+```
+; IOT for KIDS
+;
+; By Dr.Choompol Boonmee
+; 
+[env:exercise01]
+platform = nordicnrf51
+board = NRF51822
+framework = Mbed	
+board_build.flash_mode = dout
+upload_port = /dev/cu.usbserial-1420
+;upload_port = COM3
+monitor_port = /dev/cu.usbserial-1420
+;monitor_port = COM3
+monitor_speed = 115200
+```
+7. ใช้คำสั่ง **pio run -t upload** เพื่ออัพโหลดโปรแกรมลงในไมโครคอนโทรนเลอร์
+8.  กดปุ่มสีดำบนไมโครคอนโทรเลอร์เพื่อให้ดาวโหลด และกดปุ่มรีเซ็ตสีแดงเพื่อรีเซ็ตคำสั่ง
+9. ใช้คำสั่ง**pio device monitor** เพื่อดูผลลัพธ์
 
 
 ## การบันทึกผลการทดลอง
