@@ -82,19 +82,3 @@ void loop()
 โดยจากการทดลองการเขียนโปรแกรมเพื่อรันบนไมโครคอนโทรเลอร์จะเห็นว่าเมื่อเราอัพโหลดโปรแกรม 01_Serial-Monitor ลงในตัวไมโครคอนโทรเลอร์เรียบร้อยแล้ว และใช้คำสั่ง **pio device monitor** เพื่อดูการทำงานของไมโครคอนโทรเลอร์ ซึ่งหน้าจอจะขึ้นว่ามีการเปลี่ยนตัวแปรทุกๆ 1 วินาที ตามโปรแกรมที่เราได้อัพโหลดลงไป 
 
 ## คำถามหลังการทดลอง
-ถาม ให้เลือก board มา 1 ตัว จาก https://platformio.org/ พร้อมบอก code ข้อมูลพื้นฐานของ board ที่เลือก
-
-ตอบ ESP32 (AI Thinker ESP32-CAM)
-โดยมีโค้ดดังนี้
-javascript
-[env:esp32cam]
-platform = espressif32
-board = esp32cam
-
-; change microcontroller
-board_build.mcu = esp32
-
-; change MCU frequency
-board_build.f_cpu = 240000000L
-       
-ซึ่งจากโค้ดสามารถบอกได้ว่า เป็น paltform ของ espressif32 bord ชื่อ esp32cam ใช้วิธีการเขียนโปรแกรมแบบ arduino
