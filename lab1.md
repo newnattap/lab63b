@@ -8,7 +8,7 @@
 1. อุปกร์ต่อ usb
 2. ไมโครคอลโทรเลอร์ ESP-01
 3. เสาอากาศสำหรับไวไฟ
-
+4. คอมพิวเตอร์
 ## ศึกษาข้อมูลเบื้องต้น
 1. 01 run example 1 : https://www.youtube.com/watch?v=NLIUsWLEpmg
 2. src code ของโปรแกรม 01_Serial-Monitor : https://github.com/choompol-boonmee/lab63b/blob/master/examples/01_Serial-Monitor/src/main.cpp
