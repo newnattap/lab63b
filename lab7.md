@@ -10,11 +10,14 @@
 1. ไมโครคอนโทรเลอร์ ESP-01
 2. สาย USB
 3. USB to serial
-4. หัวจ่ายอาหารปลา
-5. Adapter
-6. Relay
-7. ขั้วชาร์ต
-8. คอมพิวเตอร์
+4. อุปกรณ์และวัสดุประกอบโมเดลต่างๆ
+![1_DoT_wf64FTcqAKuTJFaylA](https://user-images.githubusercontent.com/80880087/113093811-cd885100-921a-11eb-9e63-956076cf552e.jpeg)
+6. Tower Pro SG90 Mini Micro Servo
+
+8. Adapter
+9. Relay
+10. ขั้วชาร์ต
+11. คอมพิวเตอร์
 
 ## ศึกษาข้อมูลเบื้องต้น
 [03 run example 3](https://www.youtube.com/watch?v=CCnN1WJsXQY)
