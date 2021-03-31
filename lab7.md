@@ -24,6 +24,8 @@
 https://www.ioxhop.com/product/175/tower-pro-sg90-servo-micro
 
 http://www.iot.codemobiles.com/product/341/tower-pro-sg90-mini-micro-servo
+![ue](https://user-images.githubusercontent.com/80880087/113098535-cb29f500-9222-11eb-8de9-8b105dd32064.jpg)
+
 
 Servo คือ อุปกรณ์ทางกลที่ทำงานโดยการหมุน แต่แตกต่างจากมอเตอร์ทั่วๆไปตรงที่การหมุนสามารถกำหนดได้เป็นองศา Micro Servo ตัวนี้สามารถหมุนได้ตั้งแต่ 0 - 180 อาศา พร้อมการปรับค่า Error อัตโนมัติ 
 ## วิธีการทดลอง
