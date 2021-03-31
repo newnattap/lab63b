@@ -54,13 +54,7 @@ void loop()
 ```
 7. ใช้คำสั่ง pio run -t upload เพื่ออัพโหลดโปรแกรมลงในไมโครคอนโทรนเลอร์
 8. กดปุ่มสีดำบนไมโครคอนโทรเลอร์เพื่อให้ดาวโหลด และกดปุ่มรีเซ็ตสีแดงเพื่อรีเซ็ตคำสั่ง
-
-![image](https://user-images.githubusercontent.com/80879585/111983415-b1125780-8b3c-11eb-8a58-5834a2a39016.png)
-
 9. ใช้คำสั่ง**pio device monitor** เพื่อดูผลลัพธ์
-
-![image](https://user-images.githubusercontent.com/80879585/111983562-d901bb00-8b3c-11eb-9aff-ef4dd67dfad1.png)
-
 10. ต่อไมโครคอนโทรลเลอร์และ Relay เข้าด้วยกัน
 11. ต่อ Relay เข้ากับขั้วชาร์ต
 
