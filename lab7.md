@@ -10,10 +10,11 @@
 1. ไมโครคอนโทรเลอร์ ESP-01
 2. สาย USB
 3. USB to serial
-4. อุปกรณ์และวัสดุประกอบโมเดลต่างๆ
 ![1_DoT_wf64FTcqAKuTJFaylA](https://user-images.githubusercontent.com/80880087/113093811-cd885100-921a-11eb-9e63-956076cf552e.jpeg)
-6. Tower Pro SG90 Mini Micro Servo
+5. อุปกรณ์และวัสดุประกอบโมเดลต่างๆ
 ![1_PAeEzlf9swQl42y_7KUUww](https://user-images.githubusercontent.com/80880087/113093838-dc6f0380-921a-11eb-9d51-c132f2f56d3c.jpeg)
+7. Tower Pro SG90 Mini Micro Servo
+
 
 8. Adapter
 9. Relay
