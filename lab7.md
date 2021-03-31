@@ -20,6 +20,7 @@
 
 ## ศึกษาข้อมูลเบื้องต้น
 [03 run example 3](https://www.youtube.com/watch?v=CCnN1WJsXQY)
+
 https://www.ioxhop.com/product/175/tower-pro-sg90-servo-micro
 ## วิธีการทดลอง
 1. นำ Adapter มาต่อเข้ากับ USB to serial (พอร์ต 0 สีขาว พอร์ต 1 สีเหลือง)
